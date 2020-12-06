@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="User\Event\" />
+    <Folder Include="Product\" />
+    <Folder Include="Order\" />
+    <Folder Include="Pay\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlSugarCore" Version="5.0.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+E:\github\LazyShop\LazyShop\Infrastructure\bin\Debug\netcoreapp2.0\Infrastructure.deps.json
+E:\github\LazyShop\LazyShop\Infrastructure\bin\Debug\netcoreapp2.0\Infrastructure.dll
+E:\github\LazyShop\LazyShop\Infrastructure\bin\Debug\netcoreapp2.0\Infrastructure.pdb
+E:\github\LazyShop\LazyShop\Infrastructure\obj\Debug\netcoreapp2.0\Infrastructure.AssemblyInfoInputs.cache
+E:\github\LazyShop\LazyShop\Infrastructure\obj\Debug\netcoreapp2.0\Infrastructure.AssemblyInfo.cs
+E:\github\LazyShop\LazyShop\Infrastructure\obj\Debug\netcoreapp2.0\Infrastructure.dll
+E:\github\LazyShop\LazyShop\Infrastructure\obj\Debug\netcoreapp2.0\Infrastructure.pdb
+E:\github\LazyShop\LazyShop\Infrastructure\obj\Debug\netcoreapp2.0\Infrastructure.csproj.CoreCompileInputs.cache

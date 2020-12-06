@@ -1,0 +1,14 @@
+E:\github\LazyShop\LazyShop\Application\bin\Debug\netcoreapp2.0\Application.deps.json
+E:\github\LazyShop\LazyShop\Application\bin\Debug\netcoreapp2.0\Application.dll
+E:\github\LazyShop\LazyShop\Application\bin\Debug\netcoreapp2.0\Application.pdb
+E:\github\LazyShop\LazyShop\Application\obj\Debug\netcoreapp2.0\Application.AssemblyInfoInputs.cache
+E:\github\LazyShop\LazyShop\Application\obj\Debug\netcoreapp2.0\Application.AssemblyInfo.cs
+E:\github\LazyShop\LazyShop\Application\obj\Debug\netcoreapp2.0\Application.dll
+E:\github\LazyShop\LazyShop\Application\obj\Debug\netcoreapp2.0\Application.pdb
+E:\github\LazyShop\LazyShop\Application\bin\Debug\netcoreapp2.0\Domain.dll
+E:\github\LazyShop\LazyShop\Application\bin\Debug\netcoreapp2.0\Infrastructure.dll
+E:\github\LazyShop\LazyShop\Application\bin\Debug\netcoreapp2.0\Domain.pdb
+E:\github\LazyShop\LazyShop\Application\bin\Debug\netcoreapp2.0\Infrastructure.pdb
+E:\github\LazyShop\LazyShop\Application\obj\Debug\netcoreapp2.0\Application.csprojAssemblyReference.cache
+E:\github\LazyShop\LazyShop\Application\obj\Debug\netcoreapp2.0\Application.csproj.CoreCompileInputs.cache
+E:\github\LazyShop\LazyShop\Application\obj\Debug\netcoreapp2.0\Application.csproj.CopyComplete

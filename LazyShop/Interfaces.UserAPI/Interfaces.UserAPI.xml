@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Interfaces.UserAPI</name>
+    </assembly>
+    <members>
+        <member name="T:Interfaces.UserAPI.Controllers.AuthController">
+            <summary>
+            授权
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.Controllers.AuthController.AuthAppService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.Controllers.AuthController.SecurityService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Interfaces.UserAPI.Controllers.AuthController.#ctor(Application.IAuthAppService)">
+            <summary>
+            
+            </summary>
+            <param name="authAppService"></param>
+        </member>
+        <member name="M:Interfaces.UserAPI.Controllers.AuthController.Auth(Interfaces.UserAPI.DTO.AuthDTO)">
+            <summary>
+            授权
+            </summary>
+            <param name="authDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Interfaces.UserAPI.Controllers.UsersController">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.Controllers.UsersController.UserAppService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Interfaces.UserAPI.Controllers.UsersController.#ctor(Application.IUserAppService)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Interfaces.UserAPI.Controllers.UsersController.Create(Interfaces.UserAPI.DTO.UserCreateDTO)">
+            <summary>
+            注册用户
+            </summary>
+            <param name="userCreateDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Interfaces.UserAPI.DTO.AuthDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.DTO.AuthDTO.Username">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.DTO.AuthDTO.Password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.DTO.AuthDTO.VCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Interfaces.UserAPI.DTO.UserCreateDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.DTO.UserCreateDTO.Username">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.DTO.UserCreateDTO.Password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.DTO.UserCreateDTO.VCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Interfaces.UserAPI.Filters.GlobalActionFilter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Interfaces.UserAPI.Filters.GlobalActionFilter.OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Interfaces.UserAPI.Filters.GlobalActionFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:Interfaces.UserAPI.Filters.GlobalExceptionFilter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Interfaces.UserAPI.Filters.GlobalExceptionFilter.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:Interfaces.UserAPI.Models.JwtSetting">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.Models.JwtSetting.Issuer">
+            <summary>
+            颁发者
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.Models.JwtSetting.Audience">
+            <summary>
+            接收者
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.Models.JwtSetting.SecurityKey">
+            <summary>
+            令牌密码
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.Models.JwtSetting.ExpireSeconds">
+            <summary>
+             过期时间
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.Models.JwtSetting.Credentials">
+            <summary>
+            签名
+            </summary>
+        </member>
+        <member name="T:Interfaces.UserAPI.Models.ISecurityService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Interfaces.UserAPI.Models.ISecurityService.CreateToken(System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="nickName"></param>
+            <param name="mobile"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Interfaces.UserAPI.Models.SecurityService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Interfaces.UserAPI.Models.SecurityService.#ctor(Microsoft.Extensions.Options.IOptions{Interfaces.UserAPI.Models.JwtSetting})">
+            <summary>
+            
+            </summary>
+            <param name="option"></param>
+        </member>
+        <member name="M:Interfaces.UserAPI.Models.SecurityService.CreateToken(System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="nickName"></param>
+            <param name="mobile"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Interfaces.UserAPI.Models.VResult">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.Models.VResult.Code">
+            <summary>
+            返回值
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.Models.VResult.Data">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.Models.VResult.Msg">
+            <summary>
+            消息
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.Models.VResult.Count">
+            <summary>
+            数量
+            </summary>
+        </member>
+        <member name="P:Interfaces.UserAPI.Models.VResult.extend">
+            <summary>
+            扩展数据
+            </summary>
+        </member>
+        <member name="T:Interfaces.UserAPI.Models.ReturnCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Interfaces.UserAPI.Models.ReturnCode.FAIL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Interfaces.UserAPI.Models.ReturnCode.SUCCESS">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Interfaces.UserAPI.Models.ReturnCode.EXCEPTION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Interfaces.UserAPI.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Interfaces.UserAPI.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Interfaces.UserAPI.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
